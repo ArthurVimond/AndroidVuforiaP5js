@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_5316a1f9bca94e29fabf10140b7c8af46910ea41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\build\java\vuforia\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c2e5736390b929a2bcc06bd83804b520106c5df0">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_7e08c591e745b34da0ff3237162b11fadde5de93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_946737cd1e5a2c8c66512ac6d0c252d03d0feae2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_8e83cd71f85051fe1542b5bad48c2cc504e10322\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_c85977884b979d7c70d122aef5169b68141ecd41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_ed6c9567deae006363c82529d7af5d20e7d6679a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_1f2ac50780c4a7c9a60145fc5189c556788ccbc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_7892c6f529924f0769015811f5545e110e75467a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_2a14005d90d8ec7a6ee9ed437ee09f87d59ea2c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_075ae6e0a7454d43fac7badc04748bcbf54cc8ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_b6c1761ebcd75f41c5c2d6b2050ad9a7c88e508d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_ae6ab5054dd6b264b266060b1cf26a68f4054bba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7865f4221480e3154e8b75b1e1ff726ce9dbae4e">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_268e69b89d376016c380103aa2f20671783aebfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8a09dd9a7d46c1f4d735db1860743c648585c866">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fc37712ed59dde59e9cd38e3589845bd310706d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b69971699db4df96db694e78cc74bf70a33bb837\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_d4bf5c8db98c297dc53737de5bb4e7ad1ef34504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\libs\android-core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3d3c9f05f1948fe01ff80a3a2edbb891f6c6741d">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-core_ca730feae47885b8b5a692b13bf3bc3b7e4b2b49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3746abca158bef5c09d8fc89014ba405d3da17ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_5994e38a64ee824cc688bf3f3bdfa2e07ac756bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_32d8e6ada415e4e4f536f66f2b34586166b38029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\Development\AndroidStudioProjects\AndroidVuforiaP5js\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1dddb3d4ff8d3e77f87aa0c025abdf2b9faae0d8\classes.dex" />
+    </item>
+
+</items>
