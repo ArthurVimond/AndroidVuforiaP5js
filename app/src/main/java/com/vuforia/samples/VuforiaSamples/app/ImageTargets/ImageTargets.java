@@ -113,6 +113,7 @@ public class ImageTargets extends Activity implements SampleApplicationControl,
         vuforiaAppSession = new SampleApplicationSession(this);
 
         startLoadingAnimation();
+        mDatasetStrings.add("PaulKlee.xml");
         mDatasetStrings.add("StonesAndChips.xml");
         mDatasetStrings.add("Tarmac.xml");
 
@@ -430,23 +431,17 @@ public class ImageTargets extends Activity implements SampleApplicationControl,
         webView.setBackgroundColor(Color.TRANSPARENT);
     }
 
-    public void sendTrackableDataToP5js(final int id, final String name, final boolean isDetected, final float[] matrix44F) {
+    public void sendTrackableDataToP5js(final int id, final String name, final float[] matrix44F) {
         if (webView != null) {
 
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    Log.d("Debug", "webView.loadUrl -> id: " + id + " - name: " + name);
+                    //Log.d("Debug", "webView.loadUrl -> id: " + id + " - name: " + name);
 
-                    if (p5jsMode.equals("2D")) {
-                        // Send id, name and isDetected
-                        webView.loadUrl("javascript:setTrackableData(" + id + ", '" + name + "', " + isDetected + ")");
-
-                    } else if (p5jsMode.equals("3D")) {
-                        // Send id, name, isDetected, position and rotation
-                        webView.loadUrl("javascript:setTrackableData(" + id + ", '" + name + "', " + isDetected + ", " + (-matrix44F[13]) + ", " + matrix44F[12] + ", " + matrix44F[14] +
-                                ", " + matrix44F[0] + ", " + matrix44F[1] + ", " + matrix44F[2] + ")"); // 3 last params are probably not the right rotation values
-                    }
+                    // Send id, name, position and rotation
+                    webView.loadUrl("javascript:setTrackableData(" + id + ", '" + name + "', " + (-matrix44F[13]) + ", " + matrix44F[12] + ", " + matrix44F[14] +
+                            ", " + matrix44F[0] + ", " + matrix44F[1] + ", " + matrix44F[2] + ")"); // 3 last params are probably not the right rotation values
                 }
             });
 
@@ -626,8 +621,9 @@ public class ImageTargets extends Activity implements SampleApplicationControl,
         mStartDatasetsIndex = CMD_DATASET_START_INDEX;
         mDatasetsNumber = mDatasetStrings.size();
 
-        group.addRadioItem("Stones & Chips", mStartDatasetsIndex, true);
-        group.addRadioItem("Tarmac", mStartDatasetsIndex + 1, false);
+        group.addRadioItem("Paul Klee", mStartDatasetsIndex, true);
+        group.addRadioItem("Stones & Chips", mStartDatasetsIndex + 1, false);
+        group.addRadioItem("Tarmac", mStartDatasetsIndex + 2, false);
 
         mSampleAppMenu.attachMenu();
     }

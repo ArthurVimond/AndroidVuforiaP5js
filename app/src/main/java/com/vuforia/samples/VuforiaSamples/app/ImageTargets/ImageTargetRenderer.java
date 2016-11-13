@@ -204,7 +204,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
 
             Log.d("Debug", "Trackable " + trackable.getId() + " found");
             // send trackable data to activity, then to p5js via WebView.loadUrl
-            mActivity.sendTrackableDataToP5js(trackable.getId(), trackable.getName(), true, modelViewMatrix);
+            mActivity.sendTrackableDataToP5js(trackable.getId(), trackable.getName(), modelViewMatrix);
 
             int textureIndex = trackable.getName().equalsIgnoreCase("stones") ? 0 : 1;
             textureIndex = trackable.getName().equalsIgnoreCase("tarmac") ? 2 : textureIndex;

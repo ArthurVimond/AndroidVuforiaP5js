@@ -5,9 +5,10 @@
 // Global variables
 
 
-// Trackable (Vuforia markers)
-
-var lastTrackableName;
+// Trackable (Vuforia marker)
+var lastTrackableName = "";
+var lastTrackablePosX = 0, lastTrackablePosY = 0, lastTrackablePosZ = 0;
+var lastTrackableRotX = 0, lastTrackableRotY = 0, lastTrackableRotZ = 0;
 
 // p5.js native function
 // Called once at app's creation
@@ -40,8 +41,39 @@ function draw() {
     // Set shape property for texts
     strokeWeight(1);
 
+    textSize(20);
+    fill(255);
     // Display last trackable name
-    text("lastTrackableName: " + lastTrackableName, 50, 20);
+    text("lastTrackableName: " + lastTrackableName, 30, 50);
+
+    text("lastTrackablePosX: " + lastTrackablePosX, 30, 100);
+    text("lastTrackablePosY: " + lastTrackablePosY, 30, 150);
+    text("lastTrackablePosZ: " + lastTrackablePosZ, 30, 200);
+
+    text("lastTrackableRotX: " + lastTrackableRotX, 30, 250);
+    text("lastTrackableRotY: " + lastTrackableRotY, 30, 300);
+    text("lastTrackableRotZ: " + lastTrackableRotZ, 30, 350);
+
+
+    // "marker01"
+    if (lastTrackableName == "marker01") {
+        // Display content for marker01
+
+
+    }
+    else if (lastTrackableName == "marker02") {
+
+        
+
+    }
+    else if (lastTrackableName == "marker03") {
+
+
+
+
+    }
+
+
   
 }
 
@@ -62,10 +94,17 @@ function callJavaFunction() {
     Android.showToast("Called from Javascript");
 }
 
-function setTrackableData(id, name, isDetected) {
-    println("setTrackableData - id: " + id + " - name: " + name);
+function setTrackableData(id, name, posX, posY, posZ, rotX, rotY, rotZ) {
+    println("p5js::setTrackableData -> id: " + id + " - name: " + name + " - posX: " + posX + " - posY: " + posY + " - posZ: " + posZ + " - rotX: " + rotX + " - rotY: " + rotY + " - rotZ: " + rotZ);
 
-    // Store current trackable name
     lastTrackableName = name;
+
+    lastTrackablePosX = posX;
+    lastTrackablePosY = posY;
+    lastTrackablePosZ = posZ;
+
+    lastTrackableRotX = rotX;
+    lastTrackableRotY = rotY;
+    lastTrackableRotZ = rotZ;
 
 }

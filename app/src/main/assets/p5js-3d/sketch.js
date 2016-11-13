@@ -4,11 +4,12 @@
 
 // Global variables
 
-// Trackable (Vuforia markers)
-var trackable0Name;
-var trackable0IsDetected;
-var trackable0PosX, trackable0PosY, trackable0PosZ;
-var trackable0RotX, trackable0RotY, trackable0RotZ;
+// Trackable (Vuforia marker)
+var lastTrackableName = "";
+var lastTrackablePosX = 0, lastTrackablePosY = 0, lastTrackablePosZ = 0;
+var lastTrackableRotX = 0, lastTrackableRotY = 0, lastTrackableRotZ = 0;
+
+var rotInc = 0;
 
 // p5.js native function
 // Called once at app's creation
@@ -23,7 +24,7 @@ function setup() {
 // Called every frame (default: 60fps)
 function draw() {
 
-    rotateInc += 0.005;
+    rotInc += 0.05;
 
     // Clear screen 
     clear();
@@ -34,11 +35,11 @@ function draw() {
 
     normalMaterial();
     push();
-    rotateX(trackable0RotX);
-    rotateY(trackable0RotY);
-    rotateZ(trackable0RotZ);
-    translate(trackable0PosX, trackable0PosY);
-    box(50);
+    translate(lastTrackablePosX * 10, lastTrackablePosY * 10);
+    rotateX(lastTrackablePosX / 10);
+    rotateY(lastTrackablePosY / 10);
+    rotateZ(lastTrackablePosZ / 10);
+    box(100);
     pop();
 
     // Set shape and color properties for circles
@@ -71,20 +72,17 @@ function callJavaFunction() {
 }
 
 // Called from Java
-function setTrackableData(id, name, posX, isDetected, posY, posZ, rotX, rotY, rotZ) {
-    //println("p5js::setTrackableData -> id: " + id + " - name: " + name + " - posX: " + posX + " - posY: " + posY + " - posZ: " + posZ);
+function setTrackableData(id, name, posX, posY, posZ, rotX, rotY, rotZ) {
+    println("p5js::setTrackableData -> id: " + id + " - name: " + name + " - posX: " + posX + " - posY: " + posY + " - posZ: " + posZ + " - rotX: " + rotX + " - rotY: " + rotY + " - rotZ: " + rotZ);
 
-    // Trackable 0
-    if (id == 0) {
-        trackable0Name = name;
-        trackable0IsDetected = isDetected;
-        trackable0PosX = posX;
-        trackable0PosY = posY;
-        trackable0PosZ = posZ;
-        trackable0RotX = rotX;
-        trackable0RotY = rotY;
-        trackable0RotZ = rotZ;
-    }
+    lastTrackableName = name;
 
+    lastTrackablePosX = posX;
+    lastTrackablePosY = posY;
+    lastTrackablePosZ = posZ;
+
+    lastTrackableRotX = rotX;
+    lastTrackableRotY = rotY;
+    lastTrackableRotZ = rotZ;
 
 }
